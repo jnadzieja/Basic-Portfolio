@@ -27,7 +27,7 @@ body {
     font-family: Helvetica;
 }
 
-h2 {
+#navBar {
     color: gray;
     float: right;
     margin-right: 15%;
@@ -82,11 +82,12 @@ a {
     left: 0;
     height: 8%;
     width: 100%;
-    margin-bottom: 0px;
+    margin-bottom: 0%;
     background: slategray;
     border-top: 10px solid salmon;
     text-align: center;
-    color: white
+    color: white;
+    margin-top: 100px
 
 }
 
@@ -94,4 +95,43 @@ img {
     margin-top: .5%;
     margin-right: 67%;
     margin-left: 4%;
+}
+
+.contactHeader {
+    color: gray;
+    margin-left: 4%;
+    margin-right: 91%;
+    margin-top: 18px;
+    margin-bottom: 4px;
+}
+
+#nameBox{
+    margin-left: 4%;
+    margin-right: 4%;
+    height: 28px;
+    width: 92%;
+}
+
+#emailBox {
+    margin-left: 4%;
+    margin-right: 4%;
+    height: 28px;
+    width: 92%;
+}
+
+#messageBox {
+    margin-left: 4%;
+    margin-right: 4%;
+    width: 92%;
+    height: 140px;
+}
+
+#submitButton {
+    margin-left: 4%;
+    height: 45px;
+    width: 10%;
+    color: white;
+    background: salmon;
+    border: none;
+    border-radius: 6px;
 }
