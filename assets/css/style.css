@@ -1,0 +1,97 @@
+h1 {
+    height: 79%;
+    width: 16%;
+    background: salmon;
+    color: white;
+    margin-left: 15%;
+    margin-top: 0%;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 20px;
+    float: left;
+    vertical-align: middle;
+}
+
+#topDiv {
+    background: white;
+    height: 15%;
+    width: 100%;
+    margin-top: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+body {
+    background: lightgray;
+    font-family: Helvetica;
+}
+
+h2 {
+    color: gray;
+    float: right;
+    margin-right: 15%;
+    padding: 30px;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+
+}
+
+.vl {
+    border-left: 2px solid gray;
+    height: 20px;
+    margin-right: 16px;
+    margin-left: 10px;
+}
+
+#bigDiv {
+    content: "";
+    clear: both;
+    display: table;
+    margin-top: 10%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+    margin-left: 15%;
+    background: white;
+    width: 69%;
+    height: 80%;
+    vertical-align: middle;
+    border: 1px solid slategray;
+
+}
+
+#inDiv {
+    border-top: 2px solid lightgray;
+    width: 92%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 6%;
+    background: transparent
+
+}
+
+#bottomDiv {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 8%;
+    width: 100%;
+    margin-bottom: 0px;
+    background: slategray;
+    border-top: 10px solid salmon;
+    text-align: center;
+    color: white
+
+}
+
+img {
+    margin-top: .5%;
+    margin-right: 67%;
+    margin-left: 4%;
+}
